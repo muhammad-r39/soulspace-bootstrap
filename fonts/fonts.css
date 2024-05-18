@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('YekanBakh-Heavy.ttf');
+}
+
+@font-face {
+    font-family: 'Yekan';
+    font-weight: 700;
+    src: url('YekanBakh-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Yekan';
+    font-weight: 500;
+    src: url('YekanBakh-Medium.ttf');
+}
