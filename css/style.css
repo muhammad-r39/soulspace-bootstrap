@@ -194,8 +194,12 @@ body {
     border-bottom: 1px solid;
 }
 
+.therapy-slider .slick-list {
+    margin: 0 -24px !important;
+}
+
 .service {
-    width: 100%;
+    margin: 0 24px;
 }
 
 .service img {
@@ -209,10 +213,6 @@ body {
 
 .service p {
     margin-bottom: 0;
-}
-
-.slider-content {
-    flex: 0 0 300%;
 }
 
 .slider-arrow {
@@ -403,7 +403,6 @@ footer .row {
     .steps-container h3 {font-size: 30px;}
     #walkthrough {margin: 70px 0 50px;}
     .slider-content {flex: unset;}
-    .service {width: 33.33%;}
 }
 
 @media (min-width: 600px) {
@@ -465,6 +464,7 @@ footer .row {
     .service-slider .btn-link {margin-left: 32px;}
     #faq h2 {font-size: 48px;}
     .walkthrough-right h2 {font-size: 64px;}
+    .therapy-slider {padding-left: 30px;}
 }
 
 @media (min-width: 1400px) {
